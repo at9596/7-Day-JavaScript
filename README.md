@@ -1,4 +1,4 @@
-# 🚀 Week 2: Modern Frontend & Architecture Separation
+# 🚀 Modern Frontend & Architecture Separation
 
 ## 🎯 Goal
 
@@ -216,7 +216,7 @@ more responsive user experience.
 ---
 
 
-# 📚 Week 2 Resources: Modern Frontend & Architecture
+# 📚  Resources: Modern Frontend & Architecture
 
 ## Day 1: Closures & Scope
 
