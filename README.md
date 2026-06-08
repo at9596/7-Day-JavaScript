@@ -10,7 +10,7 @@ Master frontend architecture concepts and confidently explain how modern web app
 
 ### Progress
 
-* [ ] Day 1
+* [x] ~~Day 1~~
 * [ ] Day 2
 * [ ] Day 3
 * [ ] Day 4

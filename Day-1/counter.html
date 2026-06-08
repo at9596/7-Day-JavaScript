@@ -1,0 +1,99 @@
+<script>
+// function outer() {
+//     let count = 0;
+
+//     return function () {
+//         count++;
+//         console.log(count);
+//     };
+// }
+
+// const increment = outer();
+
+// increment(); // 1
+// increment(); // 2
+// increment(); // 3
+
+	// Lexical Scope: A function can access variables from its own scope and from the scopes where it was defined (its lexical environment), not from where it is called.
+	     //  function outer() {
+		// 	let name = "Abhishek";
+		// 	function inner() {
+		// 	console.log(name);
+		// 	}
+		// 	inner();
+	     // } 
+	     //  outer(); 
+
+// 	Closures
+
+// Definition: A closure is a function that remembers and can access variables from its lexical scope even after the outer function has finished executing.
+
+	// ex: counter example
+	// Data Privacy by closure
+
+// 	function bankAccount() {
+//     let balance = 1000;
+
+//     return {
+//         getBalance() {
+//             return balance;
+//         },
+
+//         deposit(amount) {
+//             balance += amount;
+//         }
+//     };
+// }
+
+// const account = bankAccount();
+
+// account.deposit(500);
+
+// console.log(account.getBalance());
+
+// 	function memoizedSquare() {
+//     const cache = {};
+
+//     return function(num) {
+//         if (cache[num]) {
+//             console.log("From Cache");
+//             return cache[num];
+//         }
+
+//         console.log("Calculated");
+//         cache[num] = num * num;
+//         return cache[num];
+//     };
+// }
+
+// const square = memoizedSquare();
+
+// square(5);
+// square(5);
+
+// 	function createButtonHandler(name) {
+//     return function() {
+//         console.log(`Button clicked by ${name}`);
+//     };
+// }
+
+// const clickHandler = createButtonHandler("Abhishek");
+
+// clickHandler();
+
+// 	for (var i = 1; i <= 3; i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 1000);
+// }
+	// 4 4 4 4
+	for (var i = 1; i <= 3; i++) {
+    ((num) => {
+        setTimeout(() => {
+            console.log(num);
+        }, 1000);
+    })(i);
+}
+
+
+</script>
