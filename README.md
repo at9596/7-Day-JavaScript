@@ -31,9 +31,9 @@ Master frontend architecture concepts and confidently explain how modern web app
 
 ### Tasks
 
-* [ ] Solve 3 closure-based coding problems
-* [ ] Create a counter using closures
-* [ ] Explain closures in your own words
+* [x] ~~Solve 3 closure-based coding problems~~
+* [x] ~~Create a counter using closures~~
+* [x] ~~Explain closures in your own words~~
 
 ### Notes
 
