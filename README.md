@@ -215,3 +215,200 @@ more responsive user experience.
 
 ---
 
+
+# 📚 Week 2 Resources: Modern Frontend & Architecture
+
+## Day 1: Closures & Scope
+
+### Articles
+
+* JavaScript.info → Closures
+* MDN Web Docs → Closures
+
+### Videos
+
+* Akshay Saini (Namaste JavaScript) – Closures
+* Kyle Simpson – Scope & Closures
+
+### Practice
+
+* LeetCode Easy problems using callbacks
+* JavaScript30 exercises
+
+---
+
+## Day 2: Hoisting & Execution Context
+
+### Articles
+
+* JavaScript.info → Variables & Hoisting
+* MDN → Hoisting
+
+### Videos
+
+* Namaste JavaScript Episode 3 & 4
+* Frontend Masters JavaScript Deep Dive
+
+### Practice
+
+* Predict the output questions
+* InterviewBit JavaScript MCQs
+
+---
+
+## Day 3: Event Loop & Async JavaScript
+
+### Must-Watch
+
+* Philip Roberts: "What the heck is the Event Loop anyway?"
+* Namaste JavaScript Event Loop Series
+
+### Articles
+
+* JavaScript.info → Event Loop
+* MDN → Promises & Async/Await
+
+### Practice
+
+* Promise output questions
+* Async JavaScript coding challenges
+
+---
+
+## Day 4: Event Delegation & DOM
+
+### Articles
+
+* MDN → Event Bubbling
+* JavaScript.info → Event Delegation
+
+### Practice Projects
+
+* Dynamic Todo List
+* FAQ Accordion
+* Dropdown Menu
+
+### Interview Focus
+
+* Event Bubbling
+* Capturing
+* Delegation
+* stopPropagation()
+
+---
+
+## Day 5: React Fundamentals
+
+### Documentation
+
+* React Official Docs (react.dev)
+
+### Videos
+
+* Dave Gray React Course
+* Net Ninja React Series
+
+### Build
+
+* Todo App
+* Notes App
+* Counter App
+
+### Interview Focus
+
+* Props vs State
+* Component Re-rendering
+* Controlled Components
+
+---
+
+## Day 6: Virtual DOM & Lifecycle
+
+### Documentation
+
+* React.dev → Rendering
+* React.dev → Effects
+
+### Videos
+
+* Namaste React
+* Web Dev Simplified React Internals
+
+### Interview Focus
+
+* Virtual DOM
+* Reconciliation
+* React Fiber
+* useEffect Lifecycle
+
+### Explain Like an Engineer
+
+"React compares the new Virtual DOM tree with the previous one, calculates the minimal changes, and updates only the affected DOM nodes."
+
+---
+
+## Day 7: SPA Architecture & Optimization
+
+### Articles
+
+* GraphQL Official Docs
+* REST API Tutorial
+* React.dev Performance Guides
+
+### Learn
+
+* React.memo
+* useMemo
+* useCallback
+* Lazy Loading
+* Code Splitting
+
+### Interview Focus
+
+#### SPA vs Traditional Web Apps
+
+Traditional:
+
+* Server renders HTML on every request
+* Full page reloads
+
+SPA:
+
+* Loads once
+* Updates UI dynamically
+* Communicates through APIs
+
+#### Why REST/GraphQL?
+
+* Separation of concerns
+* Independent frontend/backend deployment
+* Reusable APIs
+* Mobile app support
+* Better scalability
+
+---
+
+# 🎯 Bonus Interview Resources
+
+### JavaScript
+
+* Namaste JavaScript (Complete Series)
+* JavaScript.info
+* MDN Web Docs
+
+### React
+
+* React.dev
+* Namaste React
+* Epic React (Advanced)
+
+### Frontend Interviews
+
+* Frontend Interview Handbook
+* GreatFrontEnd
+* Frontend Masters
+
+---
+
+
+
