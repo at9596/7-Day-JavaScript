@@ -1,0 +1,42 @@
+<html>
+    <script>
+        //console.log(x);
+        //var x = 5;
+        //console.log(y);
+        //let y = 10;
+        //function foo() { console.log('foo'); }
+        //foo();
+        //var foo;
+        //{
+  //console.log(z);
+  //const z = 15;
+//}
+var a = 1;
+function check() {
+  console.log(a);
+  var a = 2;
+}
+check();
+    </script>
+    </html>
+
+
+    <!-- ## Temporal Dead Zone (TDZ)
+
+**Definition:** Zone where let/const variables exist but cannot be accessed.
+
+**Timeline:**
+1. Block enters → Variable created but NOT initialized
+2. TDZ begins
+3. Declaration line executes → Variable initialized
+4. TDZ ends → Variable accessible
+
+**Error:** Accessing during TDZ throws ReferenceError
+
+**Example:**
+let x;
+console.log(x); // ReferenceError! TDZ
+x = 5;
+console.log(x); // 5
+
+**Why it matters:** Prevents using variables before they're defined safely -->

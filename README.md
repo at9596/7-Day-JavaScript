@@ -11,7 +11,7 @@ Master frontend architecture concepts and confidently explain how modern web app
 ### Progress
 
 * [x] ~~Day 1~~
-* [ ] Day 2
+* [x] Day 2
 * [ ] Day 3
 * [ ] Day 4
 * [ ] Day 5
@@ -56,9 +56,9 @@ has finished execution.
 
 ### Tasks
 
-* [ ] Predict output of hoisting examples
-* [ ] Create notes on TDZ
-* [ ] Solve 3 interview questions
+* [x] ~~Predict output of hoisting examples~~
+* [x] ~~Create notes on TDZ~~
+* [x] ~~Solve 3 interview questions~~
 
 ### Notes
 
