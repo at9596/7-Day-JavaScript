@@ -11,8 +11,8 @@ Master frontend architecture concepts and confidently explain how modern web app
 ### Progress
 
 * [x] ~~Day 1~~
-* [x] Day 2
-* [ ] Day 3
+* [x] ~~~Day 2~~
+* [x] ~~Day 3~~
 * [ ] Day 4
 * [ ] Day 5
 * [ ] Day 6
@@ -82,9 +82,9 @@ the creation phase before execution begins.
 
 ### Tasks
 
-* [ ] Draw Event Loop diagram
-* [ ] Solve 5 async output questions
-* [ ] Build a Promise-based API call example
+* [X] ~~Draw Event Loop diagram~~
+* [X] ~~Solve 5 async output questions~~
+* [X] ~~Build a Promise-based API call example~~
 
 ### Notes
 

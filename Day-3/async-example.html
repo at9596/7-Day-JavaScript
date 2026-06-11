@@ -1,0 +1,36 @@
+<script>
+    // Promise-based API call with async/await
+async function fetchUserData(userId) {
+  try {
+    console.log(`Fetching user ${userId}...`);
+    
+    const response = await fetch(`https://jsonplaceholder.co/users/${userId}`);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const userData = await response.json();
+    console.log('User data:', userData);
+    return userData;
+  } catch (error) {
+    console.error('Error fetching user:', error);
+    throw error;
+  }
+}
+
+// Using the function
+fetchUserData(1)
+  .then(user => console.log('Success:', user.name))
+  .catch(error => console.log('Failed:', error.message));
+
+// Alternative: async main
+async function main() {
+  console.log('Starting...');
+  const user = await fetchUserData(2);
+  console.log('Got user:', user.name);
+  console.log('Done!');
+}
+
+main();
+</script>

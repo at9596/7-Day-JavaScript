@@ -1,0 +1,45 @@
+<script>
+    console.log('1');
+
+setTimeout(() => console.log('2'), 0);
+
+Promise.resolve().then(() => console.log('3'));
+
+console.log('4');
+console.log('A');
+
+setTimeout(() => console.log('B'), 0);
+
+Promise.resolve().then(() => {
+  console.log('C');
+  Promise.resolve().then(() => console.log('D'));
+});
+
+console.log('E');
+
+console.log('start');
+
+setTimeout(() => console.log('timeout'), 0);
+
+queueMicrotask(() => console.log('microtask'));
+
+console.log('end');
+
+async function foo() {
+  console.log('1');
+  await console.log('2');
+  console.log('3');
+}
+
+foo();
+console.log('4');
+
+
+console.log('a');
+
+setTimeout(() => console.log('b'), 100);
+
+setTimeout(() => console.log('c'), 0);
+
+Promise.resolve().then(() => console.log('d'));
+</script>
