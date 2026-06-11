@@ -13,7 +13,7 @@ Master frontend architecture concepts and confidently explain how modern web app
 * [x] ~~Day 1~~
 * [x] ~~~Day 2~~
 * [x] ~~Day 3~~
-* [ ] Day 4
+* [x] ~~Day 4~~
 * [ ] Day 5
 * [ ] Day 6
 * [ ] Day 7
@@ -106,9 +106,9 @@ which gets higher priority than the callback queue.
 
 ### Tasks
 
-* [ ] Build dynamic list with event delegation
-* [ ] Explain bubbling vs capturing
-* [ ] Practice DOM manipulation
+* [x] ~~Build dynamic list with event delegation~~
+* [x] ~~Explain bubbling vs capturing~~
+* [x] ~~Practice DOM manipulation~~
 
 ### Notes
 
